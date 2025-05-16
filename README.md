@@ -6,7 +6,7 @@ Code for RoboKeyBench (NIPS 2025)
 --output/                 
 -Intermediate files generated during code execution
 
---results/
+--results/  
 -Final evaluation metrics from Multimodal LLMs (MLLMs)
 
 --viewpoint_material.py 
