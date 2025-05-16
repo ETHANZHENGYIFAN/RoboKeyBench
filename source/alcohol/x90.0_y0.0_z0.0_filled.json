@@ -1,0 +1,122 @@
+[
+    {
+        "position": [
+            -0.0029444787502288,
+            -0.0555212497711181,
+            0.4593386850357056
+        ],
+        "vector": {
+            "type": "robot_approach",
+            "description": "In frontal view, a robot approaches from above, aligning with the positive Z-axis.",
+            "direction": [
+                0.0,
+                6.123233995736766e-17,
+                1.0
+            ]
+        },
+        "functional_part": "Bottle cap (sealing point)",
+        "usage_context": {
+            "task": "Removing cap",
+            "robot_action": "Reach down to grasp cap and twist",
+            "interaction_type": "Grasping",
+            "description": "This point allows the robot to securely grip and remove the bottle cap."
+        },
+        "rationale": "The cap is crucial for sealing the bottle. The robot needs to approach from above to effectively grip it."
+    },
+    {
+        "position": [
+            0.1413514938354492,
+            -0.0551772117614746,
+            -0.0235585823059082
+        ],
+        "vector": {
+            "type": "robot_approach",
+            "description": "In frontal view, the robot approaches the body of the bottle from above, corresponding to the positive Z-axis.",
+            "direction": [
+                0.0,
+                6.123233995736766e-17,
+                1.0
+            ]
+        },
+        "functional_part": "Bottle body (grasping zone)",
+        "usage_context": {
+            "task": "Lifting bottle",
+            "robot_action": "Reach down to grasp the bottle body and lift",
+            "interaction_type": "Grasping",
+            "description": "The body of the bottle provides a stable area for grasping and lifting."
+        },
+        "rationale": "The body of the bottle is designed for stability, making it the ideal area for a secure grasp. Approaching from above is necessary for effective lifting."
+    },
+    {
+        "position": [
+            -0.0028660016059875,
+            -0.1339983940124512,
+            -0.381178213596344
+        ],
+        "vector": {
+            "type": "target_pointing",
+            "description": "In frontal view, the bottle bottom indicates a downward direction, which is the negative Z-axis.",
+            "direction": [
+                0.0,
+                -6.123233995736766e-17,
+                -1.0
+            ]
+        },
+        "functional_part": "Bottle bottom (stability point)",
+        "usage_context": {
+            "task": "Placing bottle down",
+            "robot_action": "Lower bottle until the bottom makes contact",
+            "interaction_type": "Contact",
+            "description": "The bottom of the bottle is where it contacts the surface, providing stability."
+        },
+        "rationale": "The bottom is critical for ensuring the bottle remains upright. This point is essential for contact interaction when placing the bottle down."
+    },
+    {
+        "position": [
+            -0.1447467241287231,
+            -0.0459852218627929,
+            -0.0206781034469604
+        ],
+        "vector": {
+            "type": "robot_approach",
+            "description": "In frontal view, the robot approaches the neck from above, aligned with the positive Z-axis.",
+            "direction": [
+                0.0,
+                6.123233995736766e-17,
+                1.0
+            ]
+        },
+        "functional_part": "Neck (grasping zone)",
+        "usage_context": {
+            "task": "Holding bottle neck to pour",
+            "robot_action": "Reach to grasp the neck and tilt to pour",
+            "interaction_type": "Grasping",
+            "description": "The neck provides a controlled area to hold the bottle while pouring."
+        },
+        "rationale": "The neck is designed for precise control during pouring actions. Approaching from above allows proper grip to tilt the bottle."
+    },
+    {
+        "position": [
+            -0.002886590719223,
+            -0.1134092807769775,
+            0.1068038566112518
+        ],
+        "vector": {
+            "type": "target_pointing",
+            "description": "In frontal view, the label area is aligned to be viewed horizontally.",
+            "direction": [
+                0.0,
+                -6.123233995736766e-17,
+                -1.0
+            ]
+        },
+        "functional_part": "Label area (identification point)",
+        "usage_context": {
+            "task": "Identifying bottle contents",
+            "robot_action": "Direct sensor or camera towards the label",
+            "interaction_type": "Targeting",
+            "description": "The label area allows for identification of the bottle's contents through visual recognition."
+        },
+        "rationale": "The label's visibility is critical for identification purposes, facilitating user interaction and identification from various angles."
+    }
+]

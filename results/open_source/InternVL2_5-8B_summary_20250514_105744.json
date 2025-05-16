@@ -1,0 +1,12 @@
+{
+  "model": "OpenGVLab/InternVL2_5-8B",
+  "dataset": "/home/nips25/vqa/data/vqa_dataset.json",
+  "total_dataset_samples": 2760,
+  "total_samples_attempted_processing": 2760,
+  "total_samples_successfully_processed": 2760,
+  "correct_samples": 882,
+  "accuracy_on_processed": 0.31956521739130433,
+  "total_time_seconds": 1006.7402987480164,
+  "avg_time_per_successfully_processed_sample_seconds": 0.3647609778072523,
+  "logical_batch_size": 16
+}

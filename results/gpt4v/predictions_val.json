@@ -1,0 +1,6982 @@
+[
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Tilt Pan to Transfer",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[17]",
+    "ground_truth": "point[17]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[14][17]",
+    "ground_truth": "point[14][17]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16][37]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Items on Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[15]",
+    "ground_truth": "point[10]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Scissors",
+    "ground_truth": "Grasp Scissors",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotate Cap to Open",
+    "ground_truth": "Rotate Cap to Seal, Rotate Cap to Open",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11][16]",
+    "ground_truth": "point[20][21]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11][8]",
+    "ground_truth": "point[6][12]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[64][17]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "point[69][27]",
+    "ground_truth": "point[69][27]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Liquid",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "point[20]",
+    "ground_truth": "point[23]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[49]",
+    "ground_truth": "point[49]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Upright Kettle on the Surface, Monitor Boiling Process",
+    "status": "success"
+  },
+  {
+    "prediction": "point[17]",
+    "ground_truth": "point[17]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[16]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[18]",
+    "ground_truth": "point[18]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Scissors",
+    "ground_truth": "Grasp Scissors",
+    "status": "success"
+  },
+  {
+    "prediction": "point[39][37]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "[point[9], point[18]]",
+    "ground_truth": "point[15]",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Food or Liquid",
+    "ground_truth": "Stir Mixture",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6][18]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Mug with Cup Opening",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[48][24]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Cut the Paper",
+    "ground_truth": "Align Blades with Paper, Align Blades with Fabric, Position Blade Tip on Package Seal, Align Blades with Hair Section",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[7]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[55][63]",
+    "ground_truth": "point[76][58]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[16][9]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Food",
+    "ground_truth": "Scoop Food, Bring Spoon to Mouth",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Close Lid",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Scissors",
+    "ground_truth": "Open Package or Envelope",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Arrange Items on Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Approach Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[32][18]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Fill with Water",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Position Lid on Kettle",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Scissors",
+    "ground_truth": "Grasp Scissors",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[55]",
+    "ground_truth": "point[55]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "point[32][42]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "point[6][9]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+y]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Scissors",
+    "ground_truth": "Grasp Scissors",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[-z]]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[1]",
+    "ground_truth": "point[4]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Bottle",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+y]]",
+    "ground_truth": "point[5][12]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Kettle with Cup Opening",
+    "ground_truth": "Activate Boiling",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25][37]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Plate Over Container",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "point[21]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16][37]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Place Mug on Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[17]",
+    "ground_truth": "point[16]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[7]",
+    "ground_truth": "point[6]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[62]",
+    "ground_truth": "point[18]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Cook Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop with Bowl",
+    "ground_truth": "Scoop with Bowl, Stir with Bowl",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[76][58]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Open Lid, Grasp Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Motion",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Open Lid, Grasp Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[30]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Plate on Table",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug, Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "[point[13], point[9]]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Mug on the Surface",
+    "ground_truth": "Grasp Mug, Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[8][3]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "Cut Paper",
+    "ground_truth": "Cut Paper, Trim Fabric, Cut Package Seal",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Approach Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Serve Portion",
+    "ground_truth": "Scoop Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Plate on Surface",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19]",
+    "ground_truth": "point[38]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5][9]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Align Bowl for Measurement",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[-z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[30]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Wipe Plate Surface",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Open Lid, Grasp Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[23]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16][37]",
+    "ground_truth": "point[28][27]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+y]",
+    "ground_truth": "axis[-y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[16]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[36]",
+    "ground_truth": "point[36]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13]",
+    "ground_truth": "point[7]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[15]",
+    "ground_truth": "point[15]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[77]",
+    "ground_truth": "point[77]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[7]",
+    "ground_truth": "point[7]",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Food",
+    "ground_truth": "Scoop Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[48]",
+    "ground_truth": "point[48]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5]",
+    "ground_truth": "point[5]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[32]",
+    "ground_truth": "point[20]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Cap",
+    "ground_truth": "Position Cap on Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[20]",
+    "ground_truth": "point[20]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16][37]",
+    "ground_truth": "point[16][37]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[55][63]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Cut Material",
+    "ground_truth": "Cut Material, Snip Thread, Trim Plant, Cut Package",
+    "status": "success"
+  },
+  {
+    "prediction": "point[53]",
+    "ground_truth": "point[53]",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Pour Liquid, Flip Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Open Lid, Grasp Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Scissors",
+    "ground_truth": "Grasp Scissors",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[14]",
+    "ground_truth": "point[52]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Align Kettle with Cup Opening, Pour Water",
+    "status": "success"
+  },
+  {
+    "prediction": "point[36][60]",
+    "ground_truth": "point[36][60]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9][7]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[25][48]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[16]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[1][2]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[43][11]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[12][16]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+x]",
+    "ground_truth": "point[6][12]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[20]",
+    "ground_truth": "point[12]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[3]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Food",
+    "ground_truth": "Flip Food, Align Pan with Plate, Pour Food onto Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "point[30]",
+    "ground_truth": "point[30]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[15]",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Open Lid, Grasp Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[20][46]",
+    "ground_truth": "axis[-y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Cap",
+    "ground_truth": "Unscrew Cap from Bottle, Screw Cap onto Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[21][24]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Close Lid",
+    "ground_truth": "Open Lid, Close Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[1]",
+    "ground_truth": "point[19]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[15]",
+    "ground_truth": "point[14]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[29]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[3]",
+    "ground_truth": "point[3]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[10]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[30]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[33]",
+    "ground_truth": "point[33]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[32]",
+    "ground_truth": "point[34]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Plate on Surface",
+    "ground_truth": "Serve Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[3]",
+    "ground_truth": "point[10]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+y]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[72][58]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[12]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5][14]",
+    "ground_truth": "point[5][14]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[7]",
+    "ground_truth": "point[63]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Mug on the Surface",
+    "ground_truth": "Align Mug with Mouth, Fill with Beverage, Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Tilt Pan to Transfer",
+    "ground_truth": "Wash and Dry",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Remove Cap",
+    "ground_truth": "Fill with Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13][10]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25][33]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Flip Food",
+    "status": "success"
+  },
+  {
+    "prediction": "point[17]",
+    "ground_truth": "point[17]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+y]]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[21]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Rotation Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[1]",
+    "ground_truth": "point[1]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[33]",
+    "ground_truth": "point[33]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Food",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[1]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6]",
+    "ground_truth": "point[17]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Flip Food, Transfer Food",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11][18]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Fill with Water",
+    "status": "success"
+  },
+  {
+    "prediction": "point[3]",
+    "ground_truth": "point[3]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19]",
+    "ground_truth": "point[19]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Approach Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[26]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[61]",
+    "ground_truth": "point[61]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[27]",
+    "ground_truth": "point[7]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6]",
+    "ground_truth": "point[6]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Wipe Plate Surface",
+    "ground_truth": "Wipe Plate Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[27]",
+    "ground_truth": "point[27]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[14][2]",
+    "ground_truth": "point[14][2]",
+    "status": "success"
+  },
+  {
+    "prediction": "Press Switch",
+    "ground_truth": "Locate Switch, Press Switch",
+    "status": "success"
+  },
+  {
+    "prediction": "point[70]",
+    "ground_truth": "point[12]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6][18]",
+    "ground_truth": "point[6][18]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Scissors",
+    "ground_truth": "Grasp Scissors",
+    "status": "success"
+  },
+  {
+    "prediction": "point[17]",
+    "ground_truth": "point[3]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[34]",
+    "ground_truth": "point[72]",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Mixture",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan for Maneuvering",
+    "ground_truth": "Grasp Pan for Maneuvering, Grasp Pan Handle",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Bottle",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[33][40]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[15]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Tilt Pan",
+    "ground_truth": "Place Pan on Stove, Tilt Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "[point[28], point[29]]",
+    "ground_truth": "point[29]",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19]",
+    "ground_truth": "point[19]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Water",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Close Bottle",
+    "ground_truth": "Grasp Bottle, Close Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[8]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[31]",
+    "ground_truth": "point[31]",
+    "status": "success"
+  },
+  {
+    "prediction": "Cut Through Material",
+    "ground_truth": "Cut Through Material, Trim Plant, Cut Through Packaging",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Mug on the Surface",
+    "ground_truth": "Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[45]",
+    "ground_truth": "point[45]",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Water",
+    "ground_truth": "Pour Water",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Remove Cap",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[32]",
+    "ground_truth": "point[32]",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Fill with Water",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Plate with Surface",
+    "ground_truth": "Stabilize on Surface, Place Plate on Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6][13]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[42]",
+    "ground_truth": "point[42]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Cap",
+    "ground_truth": "Open Cap, Grasp Cap",
+    "status": "success"
+  },
+  {
+    "prediction": "point[20]",
+    "ground_truth": "point[39]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[1][13]",
+    "ground_truth": "point[1][13]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Fill with Water",
+    "status": "success"
+  },
+  {
+    "prediction": "point[42]",
+    "ground_truth": "point[42]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[6]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[64][21]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13]",
+    "ground_truth": "point[16]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[3]",
+    "ground_truth": "point[12]",
+    "status": "success"
+  },
+  {
+    "prediction": "Position Scissors on Fabric",
+    "ground_truth": "Cut Paper, Trim Fabric, Cut Package Seal",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[55][63]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5][6]",
+    "ground_truth": "point[5][6]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[4][1]",
+    "ground_truth": "point[4][6]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Cap",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5]",
+    "ground_truth": "point[20]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[28]",
+    "ground_truth": "point[28]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[47]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Grasp Pan, Place Pan on Pot",
+    "status": "success"
+  },
+  {
+    "prediction": "point[3][27]",
+    "ground_truth": "point[3][27]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[27]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Bottle",
+    "ground_truth": "Grasp Bottle, Upright Bottle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[36][77]",
+    "ground_truth": "point[36][77]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Grasp Bottle, Upright Bottle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Flip Food, Tilt Pan to Transfer",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19]",
+    "ground_truth": "point[19]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Pan on the Surface",
+    "ground_truth": "Upright Pan on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Align Kettle with Cup Opening, Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[46]",
+    "ground_truth": "point[31]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[16]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[27]",
+    "ground_truth": "point[27]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[22]",
+    "ground_truth": "point[22]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[36]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[49]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[22]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Handle",
+    "ground_truth": "Flip Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[22]",
+    "ground_truth": "point[27]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[36]",
+    "ground_truth": "point[21]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Pan on Stove",
+    "ground_truth": "Flip Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Remove Cap",
+    "ground_truth": "Remove Cap, Replace Cap",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[21]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Place Plate on Table, Place Plate on Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[1]",
+    "ground_truth": "point[31]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[39][37]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[49]",
+    "ground_truth": "point[47]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[22]",
+    "ground_truth": "point[22]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[29]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+y]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Place Mug Upright",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Liquid",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+y]]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11][20]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[30]",
+    "ground_truth": "point[28]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Drink from Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6][10]",
+    "ground_truth": "axis[-y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+y]]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Grasp Pan, Place Pan on Pot",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[10]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[30]",
+    "ground_truth": "point[16]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[17]",
+    "ground_truth": "point[17]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Cap",
+    "ground_truth": "Open Cap",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19]",
+    "ground_truth": "point[19]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Cap",
+    "ground_truth": "Open Cap",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Approach Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[55][21]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[76]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Food on Plate",
+    "ground_truth": "Place Food on Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Position Lid on Kettle",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[16]",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Spoon with Food Surface",
+    "ground_truth": "Align Spoon with Food Surface, Align Bowl with Ingredients",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Fill with Water, Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[24]",
+    "ground_truth": "point[8]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[28]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Kettle on Heating Surface",
+    "ground_truth": "Activate Heating",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Scissors with Fabric",
+    "ground_truth": "Cut Paper, Snip Fabric, Trim Plant, Cut Hair",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+y]]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Food",
+    "ground_truth": "Cook Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[14][13]",
+    "ground_truth": "point[14][13]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+x]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[31]",
+    "ground_truth": "point[37]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Fill with Water",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Open Lid, Grasp Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Ingredient",
+    "ground_truth": "Stir Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19]",
+    "ground_truth": "point[71]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[33]",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Food",
+    "ground_truth": "Serve Food",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+y]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Pour Liquid, Flip Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Wipe Plate Surface",
+    "ground_truth": "Align and Stack Plates",
+    "status": "success"
+  },
+  {
+    "prediction": "[point[9], point[12], point[11]]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Bottle (Uprighting)",
+    "ground_truth": "Grasp Bottle, Grasp Bottle (Uprighting)",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[24][29]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[42]",
+    "ground_truth": "point[79]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Heat Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+x]]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[37][74]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Place Pan on Pot",
+    "status": "success"
+  },
+  {
+    "prediction": "Approach Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[8]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6][12]",
+    "ground_truth": "point[6][12]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[14][25]",
+    "ground_truth": "point[14][25]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5]",
+    "ground_truth": "point[5]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Food",
+    "ground_truth": "Place Pan on Stove",
+    "status": "success"
+  },
+  {
+    "prediction": "Align with Liquid Source",
+    "ground_truth": "Drink Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[53]",
+    "ground_truth": "point[22]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-y]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19]",
+    "ground_truth": "point[3]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[67]",
+    "ground_truth": "point[61]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[35]",
+    "ground_truth": "point[35]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16][37]",
+    "ground_truth": "point[16][30]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "[point[13], point[1], point[11]]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Scissors",
+    "ground_truth": "Cut Paper or Fabric, Trim Plants or Herbs, Open Package or Envelope",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Align Kettle with Cup Opening, Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[51]",
+    "ground_truth": "point[51]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Insert Cork",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Remove Cap",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Position Plate as Base",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Approach Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Position Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "point[31]",
+    "ground_truth": "point[44]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6]",
+    "ground_truth": "point[18]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Fill with Liquid",
+    "ground_truth": "Fill with Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Scissors",
+    "ground_truth": "Grasp Scissors",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Cap",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[37]",
+    "ground_truth": "point[37]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5]",
+    "ground_truth": "point[10]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[3]",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Food or Liquid",
+    "ground_truth": "Stir Ingredients",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[2]",
+    "ground_truth": "point[2]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5][6]",
+    "ground_truth": "point[5][6]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Flip Food, Align Pan with Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Place Plate on Surface, Place on Stack",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Cap",
+    "ground_truth": "Position Cap on Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10][7]",
+    "ground_truth": "point[9][11]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[27]",
+    "ground_truth": "point[5]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Button",
+    "ground_truth": "Grasp Button",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Mug on the Surface",
+    "ground_truth": "Grasp Mug, Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[14]",
+    "ground_truth": "point[14]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[46]",
+    "ground_truth": "point[46]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Drink Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[4]",
+    "ground_truth": "point[4]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[46]",
+    "ground_truth": "point[19]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Align Kettle with Cup Opening",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[17]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[55][36]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Food",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "[point[9], point[27]]",
+    "ground_truth": "point[27]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Sauce",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Cap",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Food",
+    "ground_truth": "Scoop Food, Stir Ingredients",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[23]",
+    "ground_truth": "point[19]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Mug on the Surface",
+    "ground_truth": "Grasp Mug, Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[31]",
+    "ground_truth": "point[31]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Food",
+    "ground_truth": "Serve Portion",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16], point[21]",
+    "ground_truth": "point[16]",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Mug Under Liquid Source",
+    "ground_truth": "Tilt Mug to Drink",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16][26]",
+    "ground_truth": "point[16][26]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Ingredient",
+    "ground_truth": "Measure Ingredient",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[29][28]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Remove Cap",
+    "ground_truth": "Align Bottle with Target",
+    "status": "success"
+  },
+  {
+    "prediction": "point[33]",
+    "ground_truth": "point[51]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[27]",
+    "ground_truth": "point[27]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[1]",
+    "ground_truth": "point[1]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Bottle (Uprighting)",
+    "ground_truth": "Grasp Bottle (Pouring), Grasp Bottle (Filling), Grasp Bottle (Uprighting)",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13][16]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[21]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Remove Cap",
+    "ground_truth": "Remove Cap, Grasp Cap",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+x]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Bottle on the Surface",
+    "ground_truth": "Upright Bottle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Fill with Water",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Liquid",
+    "ground_truth": "Scoop Food, Serve Dish",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[31][47]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5]",
+    "ground_truth": "point[8]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Place Mug in Position",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "[point[17], point[10]]",
+    "ground_truth": "point[10]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[7]",
+    "ground_truth": "point[8]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[55]",
+    "ground_truth": "point[55]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[31]",
+    "ground_truth": "point[31]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Align Kettle with Cup Opening, Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Mug on the Surface",
+    "ground_truth": "Drink from Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[27]",
+    "ground_truth": "point[27]",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Opening with Liquid Source",
+    "ground_truth": "Filling the Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29][13]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug, Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[31]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Plate Over Container",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[3][27]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "point[31]",
+    "ground_truth": "point[31]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[15]",
+    "ground_truth": "point[17]",
+    "status": "success"
+  },
+  {
+    "prediction": "Unscrew Cap from Bottle",
+    "ground_truth": "Grasp Bottle, Upright Bottle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19]",
+    "ground_truth": "point[5]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[2]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Liquid",
+    "ground_truth": "Stir Liquid, Scoop Ingredient, Measure Ingredient, Serve Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Cut Paper or Fabric",
+    "ground_truth": "Cut Paper or Fabric, Trim Plants or Herbs",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "point[14]",
+    "ground_truth": "point[14]",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Kettle on Base",
+    "ground_truth": "Align Kettle on Base",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Activate Boiling",
+    "ground_truth": "Activate Boiling",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[42][13]",
+    "status": "success"
+  },
+  {
+    "prediction": "Tilt Pan to Transfer",
+    "ground_truth": "Tilt Pan, Return Pan to Level, Align Pan with Plate, Tilt Pan to Transfer",
+    "status": "success"
+  },
+  {
+    "prediction": "[point[5], point[28]]",
+    "ground_truth": "point[28]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[49]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Mug on the Surface",
+    "ground_truth": "Align Mug with Beverage Source, Fill Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[29]",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Tips with Thread",
+    "ground_truth": "Align Blades with Paper, Align Tips with Thread, Position Blades on Package",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[14]",
+    "ground_truth": "point[14]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[17][53]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Liquid",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "[point[19][24]]",
+    "ground_truth": "point[19][24]",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Open Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[24][28]",
+    "ground_truth": "point[24][28]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[20][31]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[15][37]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[19][42]",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Open Lid, Grasp Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Align Mug with Source, Fill Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6][15]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[16]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[12]",
+    "ground_truth": "point[8]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Slide Food onto Plate",
+    "ground_truth": "Align Pan with Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "point[8]",
+    "ground_truth": "point[8]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[2]",
+    "ground_truth": "point[2]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Food",
+    "ground_truth": "Flip Food, Align Pan with Plate, Pour Food onto Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[37]",
+    "ground_truth": "point[39]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Bottle",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[33]",
+    "ground_truth": "point[50]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[45][42]",
+    "ground_truth": "point[45][42]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[28]",
+    "ground_truth": "point[28]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[28]",
+    "ground_truth": "point[28]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[30]",
+    "ground_truth": "point[30]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Plate on Surface",
+    "ground_truth": "Align Plate Over Container",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[8]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Heat Pan Evenly",
+    "ground_truth": "Flip Food, Pour or Serve Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Place Pan on Stove, Tilt Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Align Kettle with Cup Opening",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Approach Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9][11]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Cap",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Bottle on the Surface",
+    "ground_truth": "Grasp Bottle, Close Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[15]",
+    "ground_truth": "point[15]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[45]",
+    "ground_truth": "point[45]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug, Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Tilt Pan to Transfer",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "point[62]",
+    "ground_truth": "point[17]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[-z]]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-x]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[30]",
+    "ground_truth": "point[30]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6]",
+    "ground_truth": "point[6]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[35]",
+    "ground_truth": "point[51]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Tilt Pan",
+    "ground_truth": "Align Pan with Container, Tilt Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[6]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "point[63]",
+    "ground_truth": "point[63]",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Food",
+    "ground_truth": "Place Pan on Heat Source, Flip Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Liquid",
+    "ground_truth": "Scoop Food, Serve Portion",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11][29]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[1][6]",
+    "ground_truth": "point[1][6]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Items on Plate",
+    "ground_truth": "Place Items on Plate, Align Plate with Container, Balance Items on Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Approach Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Cap",
+    "ground_truth": "Fill with Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Open Lid, Grasp Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Scissors",
+    "ground_truth": "Execute Cutting Action, Execute Trimming Action, Execute Opening Action",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[23][55]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[32]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[17]",
+    "ground_truth": "point[18]",
+    "status": "success"
+  },
+  {
+    "prediction": "Cut Paper",
+    "ground_truth": "Align Blades with Paper, Align Tips with Thread, Position Blades on Package",
+    "status": "success"
+  },
+  {
+    "prediction": "point[28][27]",
+    "ground_truth": "point[16][37]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Secure Items on Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "point[54]",
+    "ground_truth": "point[54]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[1]",
+    "ground_truth": "point[10]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[27]",
+    "ground_truth": "point[18]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[28][30]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Actuation Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[29]",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Contents",
+    "ground_truth": "Pour Contents",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Place Plate on Surface, Stabilize During Transport",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+y]",
+    "ground_truth": "point[14][2]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Plate on Surface",
+    "ground_truth": "Align Plate with Surface, Position Plate Over Object",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Liquid",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "point[23]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[37]",
+    "ground_truth": "point[37]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16]",
+    "ground_truth": "point[19]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Mug on the Surface",
+    "ground_truth": "Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[15]",
+    "ground_truth": "point[3]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+y]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[5]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotate Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[3][22]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[32][18]",
+    "ground_truth": "point[32][18]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[34]",
+    "ground_truth": "point[3]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[36][77]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Cut Material",
+    "ground_truth": "Align Blades with Material, Pierce and Cut Package, Position Blades on Plant/Herb",
+    "status": "success"
+  },
+  {
+    "prediction": "point[28]",
+    "ground_truth": "point[28]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[31]",
+    "ground_truth": "point[31]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[41]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[10]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "point[36]",
+    "ground_truth": "point[36]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[67]",
+    "ground_truth": "point[28]",
+    "status": "success"
+  },
+  {
+    "prediction": "Wipe Plate Surface",
+    "ground_truth": "Align and Stack Plates",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Grasp Pan, Placing the pan on the stove",
+    "status": "success"
+  },
+  {
+    "prediction": "Remove Cap",
+    "ground_truth": "Remove Cap, Replace Cap",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Open Lid, Grasp Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[16][26]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Contents",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[15]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug, Upright Mug on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place on Stack",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[28][4]",
+    "ground_truth": "point[28][4]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[37]",
+    "ground_truth": "point[37]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Pan on Stove",
+    "ground_truth": "Cook Food, Fry Food, Serve Food, Flip Food",
+    "status": "success"
+  },
+  {
+    "prediction": "point[1]",
+    "ground_truth": "point[1]",
+    "status": "success"
+  },
+  {
+    "prediction": "Position Pan on Heat Source",
+    "ground_truth": "Position Pan on Heat Source",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Liquid",
+    "ground_truth": "Scoop Food, Serve Dish",
+    "status": "success"
+  },
+  {
+    "prediction": "Execute Cutting Action",
+    "ground_truth": "Execute Cutting Action, Execute Trimming Action, Execute Opening Action",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[29]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Water",
+    "ground_truth": "Pour Water",
+    "status": "success"
+  },
+  {
+    "prediction": "point[44]",
+    "ground_truth": "point[44]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[37]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Place Pan on Stove, Lift Pan, Place Pan in Oven",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Motion",
+    "ground_truth": "Align for Flip, Align with Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13][15]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[49]",
+    "ground_truth": "point[49]",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[28][32]",
+    "ground_truth": "point[28][32]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[4]",
+    "ground_truth": "point[14]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[24]",
+    "ground_truth": "point[24]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[10]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Food",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Cap",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Bottle",
+    "ground_truth": "Upright Bottle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[15]",
+    "ground_truth": "point[47]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[72]",
+    "ground_truth": "point[19]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[14]",
+    "ground_truth": "point[14]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+y]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Fill with Water",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[32]",
+    "ground_truth": "point[32]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-z]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[62]",
+    "ground_truth": "point[35]",
+    "status": "success"
+  },
+  {
+    "prediction": "[point[3], point[4]]",
+    "ground_truth": "point[19]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Handle",
+    "ground_truth": "Grasp Handle",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Contents",
+    "ground_truth": "Pour Contents",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Fill with Water, Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+x]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Soup",
+    "ground_truth": "Grasp Spoon",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Rotation Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[58][77]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Mug on the Surface",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Liquid",
+    "ground_truth": "Stir Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[3][9]",
+    "ground_truth": "point[1][13]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[17][10]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Food or Liquid",
+    "ground_truth": "Stir Ingredients",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Pan with Target",
+    "ground_truth": "Wash Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Food",
+    "ground_truth": "Serve Food",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Align Kettle with Cup Opening",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Align Kettle with Cup Opening",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6][13]",
+    "ground_truth": "axis[-y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[2]",
+    "ground_truth": "point[28]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Tilt Pan to Transfer",
+    "ground_truth": "Tilt Pan, Align Pan with Plate, Tilt Pan to Transfer",
+    "status": "success"
+  },
+  {
+    "prediction": "Remove Cap",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Scoop Soup",
+    "ground_truth": "Align Spoon with Soup, Mix Ingredients, Scoop Cereal",
+    "status": "success"
+  },
+  {
+    "prediction": "point[24][20]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[12]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Align Kettle with Cup Opening",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "point[11][31]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Fill with Water",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[23]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[24][20]",
+    "ground_truth": "point[24][20]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Cap",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+y]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[6][10]",
+    "ground_truth": "axis[-y]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[29]",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Open Lid, Grasp Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[58]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Bottle",
+    "ground_truth": "Upright Bottle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[58]",
+    "ground_truth": "point[58]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[62][66]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[11]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[26]",
+    "ground_truth": "point[15]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[22]",
+    "ground_truth": "point[12]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19][24]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[10]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[3]",
+    "ground_truth": "point[3]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[22]",
+    "ground_truth": "point[22]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Plate on Surface",
+    "ground_truth": "Position Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[28]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Mug Upright",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Plate on Surface",
+    "ground_truth": "Position Items on Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Plate",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Plate Down to Cover",
+    "ground_truth": "Grasp Plate",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19][24]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[22], point[21]",
+    "ground_truth": "point[22]",
+    "status": "success"
+  },
+  {
+    "prediction": "Remove Cap",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[21]",
+    "ground_truth": "point[22]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Bottle",
+    "ground_truth": "Upright Bottle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9][7]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Fill with Water, Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[39]",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Liquid",
+    "ground_truth": "Stir Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19][14]",
+    "ground_truth": "axis[+y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[30]",
+    "ground_truth": "point[30]",
+    "status": "success"
+  },
+  {
+    "prediction": "Approach Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Cut Material",
+    "ground_truth": "Align Blades with Material, Align Blades with Thread, Align Blades with Plant, Align Blades with Package",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan Handle",
+    "ground_truth": "Grasp Pan for Maneuvering, Grasp Pan Handle",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Fill with Water, Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Align Kettle with Cup Opening, Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "point[9]",
+    "ground_truth": "point[9]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[34][60]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5][9]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Open Lid, Grasp Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+x]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[31][25]",
+    "ground_truth": "point[31][25]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[4]",
+    "ground_truth": "point[4]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Mug on the Surface",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Mixture",
+    "ground_truth": "Stir Mixture",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Scissors",
+    "ground_truth": "Grasp Scissors",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[50]",
+    "ground_truth": "point[50]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[7]",
+    "ground_truth": "point[5]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5][12]",
+    "ground_truth": "point[5][12]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+y]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Close Lid",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Cap",
+    "ground_truth": "Position Cap on Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Cut Through Material",
+    "ground_truth": "Grasp Scissors",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[30]",
+    "ground_truth": "point[30]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[24]",
+    "ground_truth": "point[17]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[24]",
+    "ground_truth": "point[17]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Bowl with Ingredient Container",
+    "ground_truth": "Align Spoon with Food, Align Bowl with Ingredient Container",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13]",
+    "ground_truth": "point[33]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[23]",
+    "ground_truth": "point[23]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[17]",
+    "ground_truth": "point[24]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Food",
+    "ground_truth": "Flip Food",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[42]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Bottle",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[2]",
+    "ground_truth": "point[2]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Contents",
+    "ground_truth": "Align Pan with Target, Pour Contents",
+    "status": "success"
+  },
+  {
+    "prediction": "point[15]",
+    "ground_truth": "point[15]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[27]",
+    "ground_truth": "point[27]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Rotation Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[29]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+y]",
+    "ground_truth": "point[17][15]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "point[21]",
+    "ground_truth": "point[21]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11]",
+    "ground_truth": "point[24]",
+    "status": "success"
+  },
+  {
+    "prediction": "Move Pan to New Location",
+    "ground_truth": "Move Pan to New Location",
+    "status": "success"
+  },
+  {
+    "prediction": "Cut the Hair",
+    "ground_truth": "Grasp Scissors",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Beverage",
+    "ground_truth": "Drink Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[21]",
+    "ground_truth": "point[23]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[1]",
+    "ground_truth": "point[1]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[-z]]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Mug on the Surface",
+    "ground_truth": "Align Mug with Source, Fill Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Bowl for Measuring",
+    "ground_truth": "Align Bowl for Measuring",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Lid",
+    "ground_truth": "Open Lid",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[46][63]",
+    "ground_truth": "point[46][63]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "[point[7], point[13], point[11]]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[13]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[37][19]",
+    "ground_truth": "point[37][19]",
+    "status": "success"
+  },
+  {
+    "prediction": "Align Spoon with Sugar",
+    "ground_truth": "Align Spoon with Sugar, Scoop Sugar, Scoop and Lift Soup",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[33]",
+    "ground_truth": "point[17]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[31]",
+    "ground_truth": "point[47]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Hinge Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[33]",
+    "ground_truth": "point[33]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[32]",
+    "ground_truth": "point[32]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[27]",
+    "ground_truth": "point[27]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Place Pan on Heat Source, Heat Oil or Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[19][22]",
+    "ground_truth": "axis[-y]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Bottle on the Surface",
+    "ground_truth": "Fill with Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Kettle on the Surface",
+    "ground_truth": "Grasp Kettle, Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "point[42]",
+    "ground_truth": "point[42]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[25]",
+    "ground_truth": "point[63]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11][29]",
+    "ground_truth": "point[11][29]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-z]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[35]",
+    "ground_truth": "point[35]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Plate Down to Cover",
+    "ground_truth": "Place Plate Down to Cover",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[37]",
+    "ground_truth": "point[24]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[-y]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[18][14]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[12]",
+    "ground_truth": "point[12]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[23]",
+    "ground_truth": "point[5]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[22]",
+    "ground_truth": "point[22]",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[35]",
+    "ground_truth": "point[6]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Flip Food",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[36]",
+    "ground_truth": "point[36]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Approach Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[11][20]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Position Lid on Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[29]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[18]",
+    "ground_truth": "point[18]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[-z]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[8][17]",
+    "ground_truth": "point[8][17]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[23]",
+    "ground_truth": "point[13]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[36]",
+    "ground_truth": "point[3]",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[-x]",
+    "status": "success"
+  },
+  {
+    "prediction": "Primary Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "point[29]",
+    "ground_truth": "point[29]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Kettle",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Cap",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Spoon",
+    "ground_truth": "Position Spoon for Scooping, Stir Mixture, Align Spoon for Measuring, Position Spoon for Eating",
+    "status": "success"
+  },
+  {
+    "prediction": "Heat and Cook Food",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[10]",
+    "ground_truth": "point[10]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[14]",
+    "ground_truth": "point[14]",
+    "status": "success"
+  },
+  {
+    "prediction": "Place Pan on Heat Source.",
+    "ground_truth": "Grasp Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "[axis[+z]]",
+    "ground_truth": "point[19][24]",
+    "status": "success"
+  },
+  {
+    "prediction": "Upright Bottle on the Surface",
+    "ground_truth": "Fill with Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Water",
+    "ground_truth": "Align Kettle with Cup Opening, Pour Water",
+    "status": "success"
+  },
+  {
+    "prediction": "Open Cap",
+    "ground_truth": "Fill with Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[+z]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[37][19]",
+    "ground_truth": "axis[+z]",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Handle",
+    "ground_truth": "Place Pan on Stove, Lift Pan Slightly",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Pour Liquid",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Lid",
+    "ground_truth": "Grasp Kettle",
+    "status": "success"
+  },
+  {
+    "prediction": "point[4]",
+    "ground_truth": "point[27]",
+    "status": "success"
+  },
+  {
+    "prediction": "point[27]",
+    "ground_truth": "point[7]",
+    "status": "success"
+  },
+  {
+    "prediction": "Pour Liquid",
+    "ground_truth": "Upright Kettle on the Surface",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Mug",
+    "ground_truth": "Grasp Mug",
+    "status": "success"
+  },
+  {
+    "prediction": "point[15]",
+    "ground_truth": "point[15]",
+    "status": "success"
+  },
+  {
+    "prediction": "Approach Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Cut Paper",
+    "ground_truth": "Align Scissors with Paper, Align Scissors with Fabric, Align Scissors with Plant, Align Scissors with Hair",
+    "status": "success"
+  },
+  {
+    "prediction": "Hinge Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "Stir Liquid",
+    "ground_truth": "Stir Liquid, Measure Ingredients",
+    "status": "success"
+  },
+  {
+    "prediction": "Functional Axis",
+    "ground_truth": "Functional Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Grasp Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[5]",
+    "ground_truth": "point[5]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Bottle",
+    "ground_truth": "Grasp Bottle",
+    "status": "success"
+  },
+  {
+    "prediction": "Hang Pan",
+    "ground_truth": "Hang Pan",
+    "status": "success"
+  },
+  {
+    "prediction": "Rotation Axis",
+    "ground_truth": "Primary Axis",
+    "status": "success"
+  },
+  {
+    "prediction": "Anchor Point",
+    "ground_truth": "Anchor Point",
+    "status": "success"
+  },
+  {
+    "prediction": "point[43]",
+    "ground_truth": "point[46]",
+    "status": "success"
+  },
+  {
+    "prediction": "Grasp Pan",
+    "ground_truth": "Flip Food",
+    "status": "success"
+  },
+  {
+    "prediction": "axis[-x]",
+    "ground_truth": "axis[+x]",
+    "status": "success"
+  }
+]

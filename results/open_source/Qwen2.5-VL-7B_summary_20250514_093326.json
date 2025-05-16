@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "dataset": "/home/nips25/vqa/data/vqa_dataset.json",
+  "total_dataset_samples": 2760,
+  "total_samples_attempted_processing": 2760,
+  "total_samples_successfully_processed": 2760,
+  "correct_samples": 1130,
+  "accuracy_on_processed": 0.40942028985507245,
+  "total_time_seconds": 1162.7586646080017,
+  "avg_time_per_successfully_processed_sample_seconds": 0.4212893712347832,
+  "max_batch_size_used": 16
+}

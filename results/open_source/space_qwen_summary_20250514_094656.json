@@ -1,0 +1,12 @@
+{
+  "model": "remyxai/SpaceQwen2.5-VL-3B-Instruct",
+  "dataset": "/home/nips25/vqa/data/vqa_dataset.json",
+  "total_dataset_samples": 2760,
+  "total_samples_attempted_processing": 2760,
+  "total_samples_successfully_processed": 2760,
+  "correct_samples": 448,
+  "accuracy_on_processed": 0.16231884057971013,
+  "total_time_seconds": 518.8955566883087,
+  "avg_time_per_successfully_processed_sample_seconds": 0.18800563648127128,
+  "max_batch_size_used": 16
+}

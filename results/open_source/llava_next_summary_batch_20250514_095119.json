@@ -1,0 +1,12 @@
+{
+  "model": "llava-v1.6-mistral-7b-hf",
+  "dataset": "/home/nips25/vqa/data/vqa_dataset.json",
+  "total_dataset_samples": 2760,
+  "total_samples_attempted_processing": 2760,
+  "total_samples_successfully_processed": 2760,
+  "correct_samples": 1408,
+  "accuracy_on_processed": 0.5101449275362319,
+  "total_time_seconds": 2618.8259060382843,
+  "avg_time_per_successfully_processed_sample_seconds": 0.9488499659559001,
+  "max_batch_size_used": 16
+}
