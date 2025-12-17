@@ -1,4 +1,4 @@
-Code for RoboKeyBench (NIPS 2025)
+Code for PASG and RoboKeyBench
 
 --source/                
 -Raw 3D assets and scene descriptions from RoboCasa
