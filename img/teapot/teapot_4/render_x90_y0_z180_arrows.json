@@ -1,0 +1,112 @@
+{
+  "image_path": "render_x90_y0_z180_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 4,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 456.2197092084006,
+          "start_y": 149.91922455573504,
+          "end_x": 456.2197092084006,
+          "end_y": 99.91922455573504,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          0.2931621663839524,
+          -0.2622875856232677,
+          0.0041347381190623
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp teapot",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 451.05008077544426,
+          "start_y": 283.03715670436185,
+          "end_x": 451.05008077544426,
+          "end_y": 233.03715670436185,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          -0.4132250668604904,
+          0.3208201240254949,
+          0.0399721125724178
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Open lid",
+        "description": "Open the teapot lid"
+      },
+      "part": "lid"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 140.87237479806137,
+          "start_y": 377.3828756058158,
+          "end_x": 105.517035738734,
+          "end_y": 342.0275365464884,
+          "length": 50,
+          "angle_degrees": -135.0,
+          "angle_radians": -2.356194490192345,
+          "direction": "upper-left"
+        },
+        "3D_position": [
+          0.1073786984045122,
+          -0.1751488183767222,
+          0.4176771618981072
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pour water",
+        "description": "Pour water from the teapot spout"
+      },
+      "part": "spout"
+    },
+    {
+      "id": 4,
+      "position": {
+        "2D_position": {
+          "start_x": 453.6348949919224,
+          "start_y": 677.2213247172859,
+          "end_x": 453.6348949919224,
+          "end_y": 727.2213247172859,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          -0.4603247823972492,
+          0.0205228478064099,
+          -0.4793269491958067
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place teapot",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    }
+  ]
+}

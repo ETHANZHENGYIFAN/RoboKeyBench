@@ -1,0 +1,60 @@
+{
+  "image_path": "render_x90_y0_z90_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 2,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 387.72213247172857,
+          "start_y": 342.4878836833602,
+          "end_x": 387.72213247172857,
+          "end_y": 292.4878836833602,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          0.2000965305685225,
+          -0.2529750140282343,
+          -0.0807985309994977
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Place food",
+        "description": "Place food onto the plate"
+      },
+      "part": "surface"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 387.72213247172857,
+          "start_y": 456.2197092084006,
+          "end_x": 387.72213247172857,
+          "end_y": 506.2197092084006,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          -0.0270740375265265,
+          0.3062919793132212,
+          -0.2672366265381417
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place plate",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    }
+  ]
+}

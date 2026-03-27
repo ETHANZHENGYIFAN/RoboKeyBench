@@ -1,0 +1,86 @@
+{
+  "image_path": "render_x90_y0_z90_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 3,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 538.9337641357027,
+          "start_y": 381.2600969305331,
+          "end_x": 538.9337641357027,
+          "end_y": 331.2600969305331,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          -0.1008099626987564,
+          -0.1498176492970337,
+          0.1587735931268133
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Place food",
+        "description": "Place food into the pan"
+      },
+      "part": "interior"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 537.6413570274636,
+          "start_y": 438.1260096930533,
+          "end_x": 537.6413570274636,
+          "end_y": 488.1260096930533,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          0.0251412903784867,
+          0.1233842133111864,
+          0.4180271471586859
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place pan",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 144.74959612277866,
+          "start_y": 382.5525040387722,
+          "end_x": 144.74959612277866,
+          "end_y": 332.5525040387722,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          -0.4598020323331994,
+          0.1785852122173864,
+          -0.3925598981436332
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp pan",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    }
+  ]
+}

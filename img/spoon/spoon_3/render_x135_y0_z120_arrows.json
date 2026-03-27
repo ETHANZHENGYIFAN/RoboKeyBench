@@ -1,0 +1,60 @@
+{
+  "image_path": "render_x135_y0_z120_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 2,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 520.8400646203554,
+          "start_y": 533.7641357027463,
+          "end_x": 556.1954036796828,
+          "end_y": 498.40879664341895,
+          "length": 50,
+          "angle_degrees": -45.0,
+          "angle_radians": -0.7853981633974483,
+          "direction": "upper-right"
+        },
+        "3D_position": [
+          -0.0980721160649535,
+          0.3669146482595276,
+          0.0968864938794346
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Scoop",
+        "description": "Scoop with the spoon head"
+      },
+      "part": "head"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 290.7915993537964,
+          "start_y": 268.8206785137318,
+          "end_x": 255.43626029446904,
+          "end_y": 304.1760175730592,
+          "length": 50,
+          "angle_degrees": 135.0,
+          "angle_radians": 2.356194490192345,
+          "direction": "lower-left"
+        },
+        "3D_position": [
+          -0.4828750054446299,
+          0.4140879518615405,
+          -0.0112692578467436
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp spoon",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    }
+  ]
+}

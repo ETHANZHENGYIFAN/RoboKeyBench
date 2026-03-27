@@ -1,0 +1,60 @@
+{
+  "image_path": "render_x90_y0_z180_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 2,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 400.6462035541195,
+          "start_y": 357.99676898222936,
+          "end_x": 400.6462035541195,
+          "end_y": 307.99676898222936,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          0.339421470490942,
+          0.3131728765603178,
+          0.1096601733581217
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp spoon",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 399.35379644588045,
+          "start_y": 425.20193861066235,
+          "end_x": 399.35379644588045,
+          "end_y": 475.20193861066235,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          -0.0990632540578154,
+          -0.3888684131207939,
+          0.0322360894703981
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place spoon",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    }
+  ]
+}

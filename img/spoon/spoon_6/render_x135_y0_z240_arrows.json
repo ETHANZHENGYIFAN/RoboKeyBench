@@ -1,0 +1,86 @@
+{
+  "image_path": "render_x135_y0_z240_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 3,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 161.5508885298869,
+          "start_y": 438.1260096930533,
+          "end_x": 161.5508885298869,
+          "end_y": 388.1260096930533,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          0.3118481271872034,
+          0.4759384126074796,
+          0.492318300652583
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Scoop",
+        "description": "Scoop with the spoon head"
+      },
+      "part": "head"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 414.8626817447496,
+          "start_y": 400.6462035541195,
+          "end_x": 414.8626817447496,
+          "end_y": 450.6462035541195,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          -0.4805569320278461,
+          -0.1620049451205413,
+          0.1894348796945058
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place spoon",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 664.2972536348949,
+          "start_y": 342.4878836833602,
+          "end_x": 664.2972536348949,
+          "end_y": 292.4878836833602,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          -0.3220473824338738,
+          -0.3655324630811408,
+          -0.3992667021036475
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp spoon",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    }
+  ]
+}

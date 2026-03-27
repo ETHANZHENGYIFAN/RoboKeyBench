@@ -1,0 +1,112 @@
+{
+  "image_path": "render_x90_y0_z0_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 4,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 408.4006462035541,
+          "start_y": 263.6510500807754,
+          "end_x": 408.4006462035541,
+          "end_y": 213.6510500807754,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          0.2518396023350791,
+          0.4950314219623568,
+          -0.421472540284714
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Open lid",
+        "description": "Open the kettle lid"
+      },
+      "part": "lid"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 55.57350565428109,
+          "start_y": 289.4991922455573,
+          "end_x": 20.218166594953722,
+          "end_y": 254.14385318622993,
+          "length": 50,
+          "angle_degrees": -135.0,
+          "angle_radians": -2.356194490192345,
+          "direction": "upper-left"
+        },
+        "3D_position": [
+          0.3623214021760705,
+          0.3655895809251167,
+          0.0424051195061179
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pour water",
+        "description": "Pour water from the kettle spout"
+      },
+      "part": "spout"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 409.69305331179316,
+          "start_y": 129.24071082390952,
+          "end_x": 409.69305331179316,
+          "end_y": 79.24071082390952,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          -0.1148316729914031,
+          -0.4904155954126187,
+          -0.197917559211229
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp kettle",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    },
+    {
+      "id": 4,
+      "position": {
+        "2D_position": {
+          "start_x": 405.8158319870759,
+          "start_y": 741.8416801292407,
+          "end_x": 405.8158319870759,
+          "end_y": 791.8416801292407,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          0.3688125070613729,
+          0.0464165638464999,
+          0.1852070113366636
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place kettle",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "image_path": "render_x135_y0_z300_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 3,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 425.20193861066235,
+          "start_y": 462.6817447495961,
+          "end_x": 425.20193861066235,
+          "end_y": 512.6817447495961,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          -0.0238708572085476,
+          0.3472142438184882,
+          0.4059956686075951
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place fork",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 280.45234248788364,
+          "start_y": 231.34087237479804,
+          "end_x": 258.3446785890418,
+          "end_y": 186.4938970371474,
+          "length": 50,
+          "angle_degrees": -116.24134965215777,
+          "angle_radians": -2.0287942783921182,
+          "direction": "upper-left"
+        },
+        "3D_position": [
+          -0.3553584443640837,
+          0.2594682958218373,
+          0.0353959587869008
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pierce food",
+        "description": "Pierce food with the fork tines"
+      },
+      "part": "tines"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 563.4894991922455,
+          "start_y": 610.016155088853,
+          "end_x": 600.1291737735604,
+          "end_y": 644.0387100572169,
+          "length": 50,
+          "angle_degrees": 42.87890360333853,
+          "angle_radians": 0.748378047523518,
+          "direction": "lower-right"
+        },
+        "3D_position": [
+          0.3661026250470455,
+          -0.1692011044240336,
+          -0.2665973062562816
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp fork",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    }
+  ]
+}

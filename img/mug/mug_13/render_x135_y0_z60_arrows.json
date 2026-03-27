@@ -1,0 +1,60 @@
+{
+  "image_path": "render_x135_y0_z60_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 2,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 341.1954765751211,
+          "start_y": 303.7156704361874,
+          "end_x": 341.1954765751211,
+          "end_y": 253.7156704361874,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          0.0832097554608391,
+          0.217152412972953,
+          0.0083542340565016
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pour water",
+        "description": "Pour water into the mug through the opening"
+      },
+      "part": "opening"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 354.1195476575121,
+          "start_y": 754.7657512116316,
+          "end_x": 354.1195476575121,
+          "end_y": 804.7657512116316,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          0.2861479968171585,
+          0.2860383639983047,
+          0.1289616528341518
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place mug",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    }
+  ]
+}

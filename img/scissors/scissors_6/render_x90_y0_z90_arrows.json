@@ -1,0 +1,34 @@
+{
+  "image_path": "render_x90_y0_z90_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 1,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 396.76898222940224,
+          "start_y": 401.9386106623586,
+          "end_x": 396.76898222940224,
+          "end_y": 451.9386106623586,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          -0.2197028143473956,
+          -0.4561894511973809,
+          0.415927164635773
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Cut",
+        "description": "Cut with the scissors blades"
+      },
+      "part": "blade"
+    }
+  ]
+}

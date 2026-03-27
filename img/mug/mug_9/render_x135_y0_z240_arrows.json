@@ -1,0 +1,86 @@
+{
+  "image_path": "render_x135_y0_z240_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 3,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 332.14862681744745,
+          "start_y": 600.9693053311793,
+          "end_x": 332.14862681744745,
+          "end_y": 650.9693053311793,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          -0.2435335534839624,
+          -0.4159083670382022,
+          0.3407756773683641
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place mug",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 319.2245557350565,
+          "start_y": 223.58642972536347,
+          "end_x": 319.2245557350565,
+          "end_y": 173.58642972536347,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          0.3456998249669125,
+          -0.1751756722546817,
+          0.4233941508273632
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pour water",
+        "description": "Pour water into the mug through the opening"
+      },
+      "part": "opening"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 679.8061389337641,
+          "start_y": 465.2665589660743,
+          "end_x": 629.8061389337641,
+          "end_y": 465.2665589660743,
+          "length": 50,
+          "angle_degrees": 180.0,
+          "angle_radians": 3.141592653589793,
+          "direction": "left"
+        },
+        "3D_position": [
+          -0.0309679725140348,
+          0.2219486971629535,
+          -0.0216676155138662
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp mug",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    }
+  ]
+}

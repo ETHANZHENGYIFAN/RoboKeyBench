@@ -1,0 +1,60 @@
+{
+  "image_path": "render_x135_y0_z60_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 2,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 382.5525040387722,
+          "start_y": 690.1453957996769,
+          "end_x": 382.5525040387722,
+          "end_y": 740.1453957996769,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          -0.4220789353256179,
+          0.1173198847334957,
+          0.204155567161762
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place mug",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 527.3021001615508,
+          "start_y": 214.5395799676898,
+          "end_x": 491.94676110222343,
+          "end_y": 249.89491902701718,
+          "length": 50,
+          "angle_degrees": 135.0,
+          "angle_radians": 2.356194490192345,
+          "direction": "lower-left"
+        },
+        "3D_position": [
+          0.4978063396489926,
+          0.0352690234427301,
+          0.0815584021450999
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp mug",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    }
+  ]
+}

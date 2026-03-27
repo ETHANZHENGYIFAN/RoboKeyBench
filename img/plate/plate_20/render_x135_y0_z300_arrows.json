@@ -1,0 +1,112 @@
+{
+  "image_path": "render_x135_y0_z300_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 4,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 400.6462035541195,
+          "start_y": 423.90953150242325,
+          "end_x": 400.6462035541195,
+          "end_y": 373.90953150242325,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          -0.3810260503027834,
+          0.2165472498669645,
+          0.4786207291997271
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Place food",
+        "description": "Place food onto the plate"
+      },
+      "part": "surface"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 120.19386106623585,
+          "start_y": 435.54119547657507,
+          "end_x": 170.19386106623585,
+          "end_y": 435.54119547657507,
+          "length": 50,
+          "angle_degrees": 0.0,
+          "angle_radians": 0.0,
+          "direction": "right"
+        },
+        "3D_position": [
+          -0.3907760419940683,
+          0.3354886779159357,
+          0.0331255935695659
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp plate",
+        "description": "Near the edge, suitable for grasping"
+      },
+      "part": "edge"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 687.5605815831987,
+          "start_y": 451.05008077544426,
+          "end_x": 637.5605815831987,
+          "end_y": 451.05008077544426,
+          "length": 50,
+          "angle_degrees": 180.0,
+          "angle_radians": 3.141592653589793,
+          "direction": "left"
+        },
+        "3D_position": [
+          -0.1134940985694113,
+          0.4961917467493338,
+          0.2445727635925539
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp plate",
+        "description": "Near the edge, suitable for grasping"
+      },
+      "part": "edge"
+    },
+    {
+      "id": 4,
+      "position": {
+        "2D_position": {
+          "start_x": 383.84491114701126,
+          "start_y": 644.9111470113086,
+          "end_x": 383.84491114701126,
+          "end_y": 694.9111470113086,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          0.2335430657241865,
+          -0.1958183469720668,
+          -0.175346291101835
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place plate",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    }
+  ]
+}

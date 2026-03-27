@@ -1,0 +1,138 @@
+{
+  "image_path": "render_x135_y0_z240_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 5,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 200.32310177705975,
+          "start_y": 396.76898222940224,
+          "end_x": 235.67844083638713,
+          "end_y": 432.1243212887296,
+          "length": 50,
+          "angle_degrees": 45.0,
+          "angle_radians": 0.7853981633974483,
+          "direction": "lower-right"
+        },
+        "3D_position": [
+          0.3803457141091167,
+          0.4273104677570447,
+          0.3094501175609466
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp scissors",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 409.69305331179316,
+          "start_y": 622.9402261712439,
+          "end_x": 374.3377142524658,
+          "end_y": 587.5848871119165,
+          "length": 50,
+          "angle_degrees": -135.0,
+          "angle_radians": -2.356194490192345,
+          "direction": "upper-left"
+        },
+        "3D_position": [
+          0.2522999986385239,
+          0.4780536833024029,
+          0.1013412935460603
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp scissors",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 461.389337641357,
+          "start_y": 389.0145395799677,
+          "end_x": 461.389337641357,
+          "end_y": 439.0145395799677,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          0.1920652593345654,
+          -0.053749838607101,
+          0.0031844634515636
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Rotate pivot",
+        "description": "The pivot point of the scissors"
+      },
+      "part": "pivot"
+    },
+    {
+      "id": 4,
+      "position": {
+        "2D_position": {
+          "start_x": 553.1502423263328,
+          "start_y": 268.8206785137318,
+          "end_x": 553.1502423263328,
+          "end_y": 218.82067851373182,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          0.1639761272344926,
+          0.213015230862309,
+          -0.3693096247051747
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Cut",
+        "description": "Cut with the scissors blades"
+      },
+      "part": "blade"
+    },
+    {
+      "id": 5,
+      "position": {
+        "2D_position": {
+          "start_x": 656.5428109854604,
+          "start_y": 334.73344103392566,
+          "end_x": 706.5428109854604,
+          "end_y": 334.73344103392566,
+          "length": 50,
+          "angle_degrees": 0.0,
+          "angle_radians": 0.0,
+          "direction": "right"
+        },
+        "3D_position": [
+          0.1560084617286878,
+          -0.3083942884967001,
+          0.4234975475636168
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Cut",
+        "description": "Cut with the scissors blades"
+      },
+      "part": "blade"
+    }
+  ]
+}

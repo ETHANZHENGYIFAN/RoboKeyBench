@@ -1,0 +1,138 @@
+{
+  "image_path": "render_x135_y0_z300_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 5,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 467.8513731825525,
+          "start_y": 467.8513731825525,
+          "end_x": 417.8513731825525,
+          "end_y": 467.8513731825525,
+          "length": 50,
+          "angle_degrees": 180.0,
+          "angle_radians": 3.141592653589793,
+          "direction": "left"
+        },
+        "3D_position": [
+          0.1085956988237983,
+          -0.2482298903297625,
+          0.2815373971827924
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp kettle",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 466.5589660743134,
+          "start_y": 582.8756058158319,
+          "end_x": 416.5589660743134,
+          "end_y": 582.8756058158319,
+          "length": 50,
+          "angle_degrees": 180.0,
+          "angle_radians": 3.141592653589793,
+          "direction": "left"
+        },
+        "3D_position": [
+          0.0932052725493362,
+          0.387733563314174,
+          -0.0497517799157103
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Press heating button",
+        "description": "Press the heating button to start heating"
+      },
+      "part": "button"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 553.1502423263328,
+          "start_y": 646.2035541195476,
+          "end_x": 553.1502423263328,
+          "end_y": 696.2035541195476,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          0.4253495626622957,
+          -0.3699731194794096,
+          -0.0023293352961803
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp kettle",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    },
+    {
+      "id": 4,
+      "position": {
+        "2D_position": {
+          "start_x": 590.6300484652666,
+          "start_y": 515.670436187399,
+          "end_x": 540.6300484652666,
+          "end_y": 515.670436187399,
+          "length": 50,
+          "angle_degrees": 180.0,
+          "angle_radians": 3.141592653589793,
+          "direction": "left"
+        },
+        "3D_position": [
+          0.4610167480754691,
+          0.3406696465118128,
+          0.1633626712859935
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp kettle",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    },
+    {
+      "id": 5,
+      "position": {
+        "2D_position": {
+          "start_x": 252.01938610662356,
+          "start_y": 109.8546042003231,
+          "end_x": 216.66404704729618,
+          "end_y": 74.49926514099572,
+          "length": 50,
+          "angle_degrees": -135.0,
+          "angle_radians": -2.356194490192345,
+          "direction": "upper-left"
+        },
+        "3D_position": [
+          -0.2695499844227526,
+          0.2170197234703591,
+          0.1027492347495761
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pour water",
+        "description": "Pour water from the kettle spout"
+      },
+      "part": "spout"
+    }
+  ]
+}

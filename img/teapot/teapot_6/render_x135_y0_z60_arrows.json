@@ -1,0 +1,112 @@
+{
+  "image_path": "render_x135_y0_z60_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 4,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 404.5234248788368,
+          "start_y": 292.0840064620355,
+          "end_x": 404.5234248788368,
+          "end_y": 242.08400646203552,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          0.3851428535027557,
+          0.0722985110639107,
+          -0.2728837775492545
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Fill teapot",
+        "description": "Pour water into the teapot"
+      },
+      "part": "opening"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 544.103392568659,
+          "start_y": 199.03069466882067,
+          "end_x": 508.74805350933167,
+          "end_y": 234.38603372814805,
+          "length": 50,
+          "angle_degrees": 135.0,
+          "angle_radians": 2.356194490192345,
+          "direction": "lower-left"
+        },
+        "3D_position": [
+          0.3562543933157665,
+          -0.4956673593317157,
+          -0.2687417870997553
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp teapot",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 228.75605815831986,
+          "start_y": 485.94507269789983,
+          "end_x": 178.75605815831986,
+          "end_y": 485.94507269789983,
+          "length": 50,
+          "angle_degrees": 180.0,
+          "angle_radians": 3.141592653589793,
+          "direction": "left"
+        },
+        "3D_position": [
+          -0.2913027305886199,
+          -0.206997293276034,
+          -0.1458868814033576
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Open lid",
+        "description": "Open the teapot lid"
+      },
+      "part": "lid"
+    },
+    {
+      "id": 4,
+      "position": {
+        "2D_position": {
+          "start_x": 431.6639741518578,
+          "start_y": 622.9402261712439,
+          "end_x": 431.6639741518578,
+          "end_y": 672.9402261712439,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          0.2383240782804035,
+          0.3900374452213407,
+          0.4125217838572168
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place teapot",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    }
+  ]
+}

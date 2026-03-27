@@ -1,0 +1,112 @@
+{
+  "image_path": "render_x135_y0_z120_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 4,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 465.2665589660743,
+          "start_y": 382.5525040387722,
+          "end_x": 465.2665589660743,
+          "end_y": 432.5525040387722,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          0.2530302991740316,
+          -0.4775787982429656,
+          0.4300072867307427
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place fork",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 585.4604200323101,
+          "start_y": 338.61066235864297,
+          "end_x": 585.4604200323101,
+          "end_y": 388.61066235864297,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          0.1223869523583107,
+          -0.1274119889860234,
+          -0.0368444323501467
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp fork",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 610.016155088853,
+          "start_y": 316.6397415185783,
+          "end_x": 655.5846850717868,
+          "end_y": 296.0604053972534,
+          "length": 50,
+          "angle_degrees": -24.304549265936704,
+          "angle_radians": -0.4241944079037664,
+          "direction": "upper-right"
+        },
+        "3D_position": [
+          0.2501335439225453,
+          0.3080670266642175,
+          0.0878417371760827
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp fork",
+        "description": "Near the handle, suitable for grasping"
+      },
+      "part": "handle"
+    },
+    {
+      "id": 4,
+      "position": {
+        "2D_position": {
+          "start_x": 131.8255250403877,
+          "start_y": 494.9919224555735,
+          "end_x": 86.341124847236,
+          "end_y": 515.7565399350558,
+          "length": 50,
+          "angle_degrees": 155.4622715234222,
+          "angle_radians": 2.7133285007131382,
+          "direction": "lower-left"
+        },
+        "3D_position": [
+          0.4854960809218801,
+          -0.2010307483919208,
+          0.36267627259352
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pierce food",
+        "description": "Pierce food with the fork tines"
+      },
+      "part": "tines"
+    }
+  ]
+}

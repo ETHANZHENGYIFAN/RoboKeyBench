@@ -1,0 +1,190 @@
+{
+  "image_path": "render_x90_y0_z0_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 7,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 401.9386106623586,
+          "start_y": 444.58804523424874,
+          "end_x": 401.9386106623586,
+          "end_y": 494.58804523424874,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          -0.1726556002062863,
+          0.4972682690623194,
+          0.0351557139415961
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place fork",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 342.4878836833602,
+          "start_y": 439.4184168012924,
+          "end_x": 342.4878836833602,
+          "end_y": 489.4184168012924,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          -0.277967554004606,
+          -0.110434562695409,
+          0.0983461225201502
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place fork",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 466.5589660743134,
+          "start_y": 440.7108239095315,
+          "end_x": 466.5589660743134,
+          "end_y": 490.7108239095315,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          0.3499967262361229,
+          -0.2435435567799835,
+          0.2676591459541368
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place fork",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    },
+    {
+      "id": 4,
+      "position": {
+        "2D_position": {
+          "start_x": 381.2600969305331,
+          "start_y": 350.2423263327948,
+          "end_x": 381.2600969305331,
+          "end_y": 300.2423263327948,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          -0.4796702614775713,
+          0.0903394658638307,
+          0.0218669591465309
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pierce food",
+        "description": "Pierce food with the fork tines"
+      },
+      "part": "tines"
+    },
+    {
+      "id": 5,
+      "position": {
+        "2D_position": {
+          "start_x": 421.32471728594504,
+          "start_y": 350.2423263327948,
+          "end_x": 421.32471728594504,
+          "end_y": 300.2423263327948,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          0.1651781213120057,
+          0.4607681932850343,
+          -0.1678909127300197
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pierce food",
+        "description": "Pierce food with the fork tines"
+      },
+      "part": "tines"
+    },
+    {
+      "id": 6,
+      "position": {
+        "2D_position": {
+          "start_x": 453.6348949919224,
+          "start_y": 356.7043618739903,
+          "end_x": 453.6348949919224,
+          "end_y": 306.7043618739903,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          -0.083573436174725,
+          0.3059618360065707,
+          -0.3650964747282821
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pierce food",
+        "description": "Pierce food with the fork tines"
+      },
+      "part": "tines"
+    },
+    {
+      "id": 7,
+      "position": {
+        "2D_position": {
+          "start_x": 346.36510500807753,
+          "start_y": 354.1195476575121,
+          "end_x": 346.36510500807753,
+          "end_y": 304.1195476575121,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          0.2064819092806827,
+          -0.4327023991815466,
+          0.2335908910550917
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pierce food",
+        "description": "Pierce food with the fork tines"
+      },
+      "part": "tines"
+    }
+  ]
+}

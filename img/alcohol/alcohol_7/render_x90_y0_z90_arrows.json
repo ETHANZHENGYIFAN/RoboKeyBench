@@ -1,0 +1,112 @@
+{
+  "image_path": "render_x90_y0_z90_marked.png",
+  "image_width": 800,
+  "image_height": 800,
+  "arrow_count": 4,
+  "arrows": [
+    {
+      "id": 1,
+      "position": {
+        "2D_position": {
+          "start_x": 312.76252019386106,
+          "start_y": 449.75767366720515,
+          "end_x": 359.11802347906877,
+          "end_y": 468.49713244207635,
+          "length": 50,
+          "angle_degrees": 22.011283197919354,
+          "angle_radians": 0.3841693643925994,
+          "direction": "right"
+        },
+        "3D_position": [
+          -0.3058523049869025,
+          0.0351582837676639,
+          0.0023007201119485
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp alcohol",
+        "description": "Near the bottle body, suitable for grasping"
+      },
+      "part": "body"
+    },
+    {
+      "id": 2,
+      "position": {
+        "2D_position": {
+          "start_x": 480.7754442649434,
+          "start_y": 448.46526655896605,
+          "end_x": 436.61965829207287,
+          "end_y": 471.9230278570535,
+          "length": 50,
+          "angle_degrees": 152.02052561151987,
+          "angle_radians": 2.653258702533388,
+          "direction": "lower-left"
+        },
+        "3D_position": [
+          -0.1399436664567817,
+          0.0900803625930415,
+          -0.0179267492033376
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Grasping",
+        "task": "Grasp alcohol",
+        "description": "Near the bottle body, suitable for grasping"
+      },
+      "part": "body"
+    },
+    {
+      "id": 3,
+      "position": {
+        "2D_position": {
+          "start_x": 399.35379644588045,
+          "start_y": 105.97738287560581,
+          "end_x": 399.35379644588045,
+          "end_y": 55.97738287560581,
+          "length": 50,
+          "angle_degrees": -90.0,
+          "angle_radians": -1.5707963267948966,
+          "direction": "up"
+        },
+        "3D_position": [
+          -0.2486340214405949,
+          0.2709805280226327,
+          0.265273035332184
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Utility",
+        "task": "Pour water",
+        "description": "Pour water from the bottle opening"
+      },
+      "part": "opening"
+    },
+    {
+      "id": 4,
+      "position": {
+        "2D_position": {
+          "start_x": 396.76898222940224,
+          "start_y": 709.5315024232633,
+          "end_x": 396.76898222940224,
+          "end_y": 759.5315024232633,
+          "length": 50,
+          "angle_degrees": 90.0,
+          "angle_radians": 1.5707963267948966,
+          "direction": "down"
+        },
+        "3D_position": [
+          -0.1523313887720497,
+          0.1270091465397565,
+          0.0008901625136213
+        ]
+      },
+      "usage_context": {
+        "interaction_type": "Placing",
+        "task": "Place alcohol",
+        "description": "Near the bottom of the object, used for alignment when placing"
+      },
+      "part": "bottom"
+    }
+  ]
+}
