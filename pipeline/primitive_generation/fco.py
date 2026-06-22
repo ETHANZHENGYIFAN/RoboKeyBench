@@ -1,56 +1,45 @@
 """
-Functional Control Object (FCO) Processing (Section B.6.2)
+Functional Control Object (FCO) processing.
 
-Three-stage pipeline:
-  Stage 1 – Actuation Point Identification  (GPT-4o + surface normal grounding)
-  Stage 2 – Feedback Region Identification  (affordance-semantic coupling)
-  Stage 3 – Actuation Axis Extraction       (PCA + sign resolution via d_act)
+FCOs require actuation-point localization, feedback-region identification, and
+signed actuation-axis extraction. The implementation follows the manuscript's
+affordance-semantic coupling: operational gestures are grounded in surface
+normals and feedback regions are selected by deformation response aligned with
+the actuation direction.
 """
 
 from __future__ import annotations
+
+from dataclasses import dataclass
+
 import numpy as np
-from dataclasses import dataclass, field
 
 
-# ---------------------------------------------------------------------------
-# Stage 1 – Actuation Point Identification
-# ---------------------------------------------------------------------------
+def _unit_vector(vec: np.ndarray, eps: float = 1e-8) -> np.ndarray:
+    norm = np.linalg.norm(vec)
+    if norm < eps:
+        raise ValueError("Degenerate vector cannot be normalized.")
+    return vec / norm
+
 
 def select_actuation_vertices(
     vertices: np.ndarray,
     normals: np.ndarray,
     actuation_regions: list[dict],
 ) -> tuple[np.ndarray, np.ndarray]:
-    """
-    Collect mesh vertices whose projections fall within the annotated 2-D
-    actuation regions across multiple views.
+    """Select mesh vertices projected inside annotated 2D actuation regions."""
 
-    Args:
-        vertices:          (V, 3) mesh vertices.
-        normals:           (V, 3) per-vertex surface normals (unit length).
-        actuation_regions: List of per-view dicts, each containing:
-                             'projection_fn' – callable (V,3) → (V,2) pixels
-                             'region_mask'   – (H, W) binary mask R_act
-
-    Returns:
-        v_fco:   (M, 3) selected actuation vertices.
-        n_fco:   (M, 3) corresponding surface normals.
-    """
     hit_counts = np.zeros(len(vertices), dtype=int)
-
     for view in actuation_regions:
         proj_fn = view["projection_fn"]
-        region  = view["region_mask"]
-        H, W    = region.shape
-
+        region = view["region_mask"]
+        height, width = region.shape
         pixels = proj_fn(vertices)
         cols = np.round(pixels[:, 0]).astype(int)
         rows = np.round(pixels[:, 1]).astype(int)
-
-        in_image  = (cols >= 0) & (cols < W) & (rows >= 0) & (rows < H)
+        in_image = (cols >= 0) & (cols < width) & (rows >= 0) & (rows < height)
         in_region = np.zeros(len(vertices), dtype=bool)
         in_region[in_image] = region[rows[in_image], cols[in_image]] > 0
-
         hit_counts += in_region.astype(int)
 
     selected = hit_counts > 0
@@ -58,28 +47,19 @@ def select_actuation_vertices(
 
 
 def infer_actuation_direction(n_fco: np.ndarray) -> np.ndarray:
-    """
-    Derive the actuation direction d_act as the mean surface normal of the
-    actuation region, constrained to be spatially coincident with the local
-    surface geometry.
+    """Infer the actuation gesture direction from local surface normals."""
 
-    Args:
-        n_fco: (M, 3) surface normals of selected actuation vertices.
-
-    Returns:
-        d_act: (3,) unit actuation direction.
-    """
-    mean_normal = n_fco.mean(axis=0)
-    norm = np.linalg.norm(mean_normal)
-    if norm < 1e-8:
-        raise ValueError("Cannot determine actuation direction: "
-                         "degenerate normal distribution.")
-    return mean_normal / norm
+    if len(n_fco) == 0:
+        raise ValueError("Cannot determine actuation direction from an empty region.")
+    return _unit_vector(np.asarray(n_fco, dtype=float).mean(axis=0))
 
 
-# ---------------------------------------------------------------------------
-# Stage 2 – Feedback Region Identification
-# ---------------------------------------------------------------------------
+def _sample_pixels(proj_fn, vertices: np.ndarray, height: int, width: int) -> tuple[np.ndarray, np.ndarray]:
+    pixels = proj_fn(vertices)
+    cols = np.clip(np.round(pixels[:, 0]).astype(int), 0, width - 1)
+    rows = np.clip(np.round(pixels[:, 1]).astype(int), 0, height - 1)
+    return rows, cols
+
 
 def identify_feedback_region(
     vertices: np.ndarray,
@@ -90,128 +70,105 @@ def identify_feedback_region(
     spatial_radius: float = 0.1,
 ) -> np.ndarray:
     """
-    Identify the feedback region: vertices that exhibit deformation signatures
-    in response to the actuation gesture (button depression, slider travel, etc.)
+    Identify feedback vertices coupled to the actuation gesture.
 
-    Strategy:
-      1. Restrict candidates to a spatial neighbourhood of the actuation center.
-      2. Among candidates, retain those whose projected displacement across
-         rendered articulation views is aligned with d_act (affordance coupling).
-
-    Args:
-        vertices:          (V, 3) full mesh.
-        normals:           (V, 3) per-vertex normals.
-        d_act:             (3,) actuation direction.
-        actuation_center:  (3,) mean of actuation vertices.
-        deformation_views: List of per-view dicts with:
-                             'projection_fn'     – (V,3) → (V,2) projection
-                             'displacement_map'  – (H,W) scalar deformation map
-        spatial_radius:    Normalized radius around actuation_center.
-
-    Returns:
-        v_feedback: (K, 3) feedback region vertices.
+    Vector displacement maps are scored by the positive projection of local
+    deformation onto the actuation direction. Scalar deformation maps remain
+    supported as a release-compatible fallback, with an additional surface
+    normal consistency check to preserve affordance semantics.
     """
-    # Spatial neighbourhood filter
+
     dists = np.linalg.norm(vertices - actuation_center, axis=1)
     in_radius = dists < spatial_radius
+    if not np.any(in_radius):
+        return np.empty((0, 3))
 
-    # Affordance-semantic coupling: deformation aligned with d_act
-    deformation_score = np.zeros(len(vertices))
+    d_act = _unit_vector(np.asarray(d_act, dtype=float))
+    normals = np.asarray(normals, dtype=float)
+    deformation_score = np.zeros(len(vertices), dtype=float)
+    has_directional_signal = False
+
     for view in deformation_views:
-        proj_fn   = view["projection_fn"]
-        disp_map  = view["displacement_map"]
-        H, W = disp_map.shape
+        proj_fn = view["projection_fn"]
+        if "displacement_vectors" in view:
+            disp_vectors = np.asarray(view["displacement_vectors"], dtype=float)
+            if disp_vectors.ndim != 3 or disp_vectors.shape[-1] != 3:
+                raise ValueError("displacement_vectors must have shape (H, W, 3).")
+            height, width = disp_vectors.shape[:2]
+            rows, cols = _sample_pixels(proj_fn, vertices, height, width)
+            vectors = disp_vectors[rows, cols]
+            magnitudes = np.linalg.norm(vectors, axis=1)
+            valid = magnitudes > 1e-8
+            alignment = np.zeros(len(vertices), dtype=float)
+            alignment[valid] = np.maximum(0.0, (vectors[valid] @ d_act) / magnitudes[valid])
+            deformation_score += alignment * magnitudes
+            has_directional_signal = True
+        elif "displacement_map" in view:
+            disp_map = np.asarray(view["displacement_map"], dtype=float)
+            height, width = disp_map.shape
+            rows, cols = _sample_pixels(proj_fn, vertices, height, width)
+            deformation_score += disp_map[rows, cols]
 
-        pixels = proj_fn(vertices)
-        cols = np.clip(np.round(pixels[:, 0]).astype(int), 0, W - 1)
-        rows = np.clip(np.round(pixels[:, 1]).astype(int), 0, H - 1)
-        deformation_score += disp_map[rows, cols]
+    local_scores = deformation_score[in_radius]
+    threshold = float(local_scores.mean()) if len(local_scores) else 0.0
+    positive_response = deformation_score > 1e-8
+    if has_directional_signal:
+        return vertices[in_radius & positive_response & (deformation_score >= threshold)]
 
-    combined = in_radius & (deformation_score > deformation_score[in_radius].mean())
-    return vertices[combined]
+    normal_alignment = np.abs(normals @ d_act)
+    return vertices[
+        in_radius
+        & positive_response
+        & (deformation_score >= threshold)
+        & (normal_alignment > 0.25)
+    ]
 
 
-# ---------------------------------------------------------------------------
-# Stage 3 – Actuation Axis Extraction
-# ---------------------------------------------------------------------------
+def extract_actuation_axis(v_fco: np.ndarray, d_act: np.ndarray) -> np.ndarray:
+    """Extract the PCA axis and resolve its sign by the actuation direction."""
 
-def extract_actuation_axis(
-    v_fco: np.ndarray,
-    d_act: np.ndarray,
-) -> np.ndarray:
-    """
-    Apply PCA to V_fco and resolve the sign of the leading eigenvector by
-    alignment with d_act.
-
-        a_fco = sgn(e_1(Σ_fco) · d_act) · e_1(Σ_fco)
-
-    Args:
-        v_fco: (M, 3) actuation region vertices.
-        d_act: (3,) actuation direction for sign disambiguation.
-
-    Returns:
-        a_fco: (3,) signed unit actuation axis.
-    """
     v_bar = v_fco.mean(axis=0)
-    cov   = np.cov((v_fco - v_bar).T)
-    eigenvalues, eigenvectors = np.linalg.eigh(cov)
-    e1 = eigenvectors[:, -1]                       # leading eigenvector
-
+    cov = np.cov((v_fco - v_bar).T)
+    _, eigenvectors = np.linalg.eigh(cov)
+    e1 = eigenvectors[:, -1]
     sign = np.sign(np.dot(e1, d_act))
     if sign == 0:
         sign = 1.0
-    return sign * e1 / np.linalg.norm(e1)
+    return _unit_vector(sign * e1)
 
-
-# ---------------------------------------------------------------------------
-# Full FCO Result
-# ---------------------------------------------------------------------------
 
 @dataclass
 class FCOResult:
-    actuation_axis:    np.ndarray          # (3,) signed unit axis a_fco
-    actuation_center:  np.ndarray          # (3,) centroid of actuation region
-    actuation_dir:     np.ndarray          # (3,) d_act from surface normals
-    feedback_vertices: np.ndarray          # (K, 3) feedback region
-    confidence:        float = 1.0
-    refined:           bool  = False
+    actuation_axis: np.ndarray
+    actuation_center: np.ndarray
+    actuation_dir: np.ndarray
+    feedback_vertices: np.ndarray
+    confidence: float = 1.0
+    refined: bool = False
 
     def to_dict(self) -> dict:
         return {
-            "actuation_axis":   self.actuation_axis.tolist(),
+            "actuation_axis": self.actuation_axis.tolist(),
             "actuation_center": self.actuation_center.tolist(),
-            "actuation_dir":    self.actuation_dir.tolist(),
-            "confidence":       self.confidence,
-            "refined":          self.refined,
+            "actuation_dir": self.actuation_dir.tolist(),
+            "feedback_vertices": self.feedback_vertices.tolist(),
+            "confidence": self.confidence,
+            "refined": self.refined,
         }
 
 
 def process_fco(
-    vertices:            np.ndarray,
-    normals:             np.ndarray,
-    actuation_regions:   list[dict],
-    deformation_views:   list[dict],
+    vertices: np.ndarray,
+    normals: np.ndarray,
+    actuation_regions: list[dict],
+    deformation_views: list[dict],
     confidence_threshold: float = 0.7,
-    spatial_radius:      float = 0.1,
+    spatial_radius: float = 0.1,
+    max_refine_iter: int = 2,
     gpt_refine_fn=None,
 ) -> FCOResult:
-    """
-    Full three-stage FCO processing pipeline.
+    """Run the full three-stage FCO processing pipeline."""
 
-    Args:
-        vertices:             (V, 3) mesh vertices.
-        normals:              (V, 3) per-vertex surface normals.
-        actuation_regions:    Per-view dicts for Stage 1.
-        deformation_views:    Per-view dicts for Stage 2.
-        confidence_threshold: Trigger adaptive resampling below this value.
-        spatial_radius:       Feedback region search radius (normalized).
-        gpt_refine_fn:        Optional callable(v_fco) → (d_act, confidence)
-                              for adaptive refinement.
-
-    Returns:
-        FCOResult with all extracted primitives.
-    """
-    # Stage 1 – Actuation Point
     v_fco, n_fco = select_actuation_vertices(vertices, normals, actuation_regions)
     if len(v_fco) < 3:
         raise ValueError("Insufficient actuation vertices; check region annotations.")
@@ -221,21 +178,22 @@ def process_fco(
     confidence = 1.0
     refined = False
 
-    # Adaptive refinement if GPT-4o confidence is low
-    if gpt_refine_fn is not None:
-        d_act_gpt, confidence = gpt_refine_fn(v_fco)
-        if confidence < confidence_threshold:
-            d_act_gpt, confidence = gpt_refine_fn(v_fco)   # re-query with extra views
+    if gpt_refine_fn is not None and max_refine_iter > 0:
+        for _ in range(max_refine_iter):
+            candidate_dir, confidence = gpt_refine_fn(v_fco)
+            d_act = _unit_vector(np.asarray(candidate_dir, dtype=float))
             refined = True
-        d_act = d_act_gpt
+            if confidence >= confidence_threshold:
+                break
 
-    # Stage 2 – Feedback Region
     v_feedback = identify_feedback_region(
-        vertices, normals, d_act, actuation_center,
-        deformation_views, spatial_radius
+        vertices,
+        normals,
+        d_act,
+        actuation_center,
+        deformation_views,
+        spatial_radius,
     )
-
-    # Stage 3 – Actuation Axis
     a_fco = extract_actuation_axis(v_fco, d_act)
 
     return FCOResult(

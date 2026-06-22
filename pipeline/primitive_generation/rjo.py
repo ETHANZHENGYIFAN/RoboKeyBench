@@ -1,242 +1,248 @@
 """
-Rotational Joint Object (RJO) Processing (Section B.6.1)
+Rotational Joint Object (RJO) processing.
 
-Three-stage pipeline:
-  Stage 1 – Joint Region Identification      (GPT-4o + multi-view projection)
-  Stage 2 – Rotation Axis Extraction         (PCA + kinematic feasibility check)
-  Stage 3 – Angular Limit Point Detection    (extreme-articulation comparison)
+The RJO pipeline extracts a rotation axis, verifies that it is a persistent
+linear feature orthogonal to the object's motion plane across rendered
+articulation states, and detects angular limit points from extreme states.
 """
 
 from __future__ import annotations
+
+from dataclasses import dataclass
+
 import numpy as np
-from dataclasses import dataclass, field
 
 
-# ---------------------------------------------------------------------------
-# Stage 1 – Joint Region Identification
-# ---------------------------------------------------------------------------
+def _unit_vector(vec: np.ndarray, eps: float = 1e-8) -> np.ndarray:
+    norm = np.linalg.norm(vec)
+    if norm < eps:
+        raise ValueError("Degenerate vector cannot be normalized.")
+    return vec / norm
 
-def select_joint_vertices(
-    vertices: np.ndarray,
-    joint_regions: list[dict],
-) -> np.ndarray:
-    """
-    Collect mesh vertices whose projections fall inside the annotated 2-D
-    joint regions across multiple views.
 
-    Args:
-        vertices:      (V, 3) mesh vertex positions in world space.
-        joint_regions: List of per-view dicts, each containing:
-                         'projection_fn'  – callable (V,3) → (V,2) pixels
-                         'region_mask'    – (H, W) binary mask R_joint
+def estimate_motion_plane_normal(
+    motion_states: list[np.ndarray],
+    min_displacement: float = 1e-6,
+) -> np.ndarray | None:
+    """Estimate the motion-plane normal from multi-state vertex trajectories."""
 
-    Returns:
-        V_joint: (M, 3) subset of vertices identified as the joint region.
-    """
+    states = [np.asarray(s, dtype=float) for s in motion_states if len(s) > 0]
+    states = [s for s in states if s.ndim == 2 and s.shape[1] == 3]
+    if len(states) < 2:
+        return None
+
+    motion_vectors: list[np.ndarray] = []
+    same_shape = all(s.shape == states[0].shape for s in states)
+    if same_shape:
+        base = states[0]
+        for state in states[1:]:
+            displacement = state - base
+            moving = np.linalg.norm(displacement, axis=1) > min_displacement
+            if np.any(moving):
+                motion_vectors.append(displacement[moving])
+        if len(states) >= 3:
+            trajectory = np.stack(states, axis=0)
+            centered = trajectory - trajectory.mean(axis=0, keepdims=True)
+            centered = centered.reshape(-1, 3)
+            moving = np.linalg.norm(centered, axis=1) > min_displacement
+            if np.any(moving):
+                motion_vectors.append(centered[moving])
+    else:
+        centers = np.asarray([s.mean(axis=0) for s in states])
+        displacement = centers[1:] - centers[0]
+        moving = np.linalg.norm(displacement, axis=1) > min_displacement
+        if np.any(moving):
+            motion_vectors.append(displacement[moving])
+        centered = centers - centers.mean(axis=0, keepdims=True)
+        moving = np.linalg.norm(centered, axis=1) > min_displacement
+        if np.any(moving):
+            motion_vectors.append(centered[moving])
+
+    if not motion_vectors:
+        return None
+    vectors = np.concatenate(motion_vectors, axis=0)
+    if vectors.shape[0] < 2:
+        return None
+
+    cov = vectors.T @ vectors / vectors.shape[0]
+    eigenvalues, eigenvectors = np.linalg.eigh(cov)
+    if np.count_nonzero(eigenvalues > min_displacement**2) < 2:
+        return None
+    return _unit_vector(eigenvectors[:, 0])
+
+
+def select_joint_vertices(vertices: np.ndarray, joint_regions: list[dict]) -> np.ndarray:
+    """Collect mesh vertices projected inside annotated 2D joint regions."""
+
     hit_counts = np.zeros(len(vertices), dtype=int)
-
     for view in joint_regions:
-        proj_fn  = view["projection_fn"]
-        region   = view["region_mask"]        # (H, W) binary
-        H, W     = region.shape
-
-        pixels = proj_fn(vertices)            # (V, 2) — (col, row)
+        proj_fn = view["projection_fn"]
+        region = view["region_mask"]
+        height, width = region.shape
+        pixels = proj_fn(vertices)
         cols = np.round(pixels[:, 0]).astype(int)
         rows = np.round(pixels[:, 1]).astype(int)
-
-        in_image = (cols >= 0) & (cols < W) & (rows >= 0) & (rows < H)
+        in_image = (cols >= 0) & (cols < width) & (rows >= 0) & (rows < height)
         in_region = np.zeros(len(vertices), dtype=bool)
         in_region[in_image] = region[rows[in_image], cols[in_image]] > 0
-
         hit_counts += in_region.astype(int)
-
-    # Retain vertices seen in at least one view
     return vertices[hit_counts > 0]
 
 
-# ---------------------------------------------------------------------------
-# Stage 2 – Rotation Axis Extraction
-# ---------------------------------------------------------------------------
-
 def pca_rotation_axis(v_joint: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
-    """
-    Apply PCA to the joint-region vertex set and return the candidate
-    rotation axis (leading eigenvector of the empirical covariance).
+    """Return the leading PCA direction of the joint-region vertices."""
 
-    Args:
-        v_joint: (M, 3) joint-region vertices.
-
-    Returns:
-        axis:       (3,) unit rotation axis candidate a_rot.
-        eigenvalues: (3,) eigenvalues in ascending order.
-    """
     v_bar = v_joint.mean(axis=0)
-    cov = np.cov((v_joint - v_bar).T)              # (3, 3)
+    cov = np.cov((v_joint - v_bar).T)
     eigenvalues, eigenvectors = np.linalg.eigh(cov)
-    # eigh returns ascending order; leading axis = last column
     axis = eigenvectors[:, -1]
-    return axis / np.linalg.norm(axis), eigenvalues
+    return _unit_vector(axis), eigenvalues
 
 
 def check_kinematic_feasibility(
     axis_candidate: np.ndarray,
-    articulation_states: list[np.ndarray],
+    joint_axis_states: list[np.ndarray],
+    motion_states: list[np.ndarray] | None = None,
     consistency_threshold: float = 0.95,
+    orthogonality_threshold: float = 0.90,
 ) -> bool:
     """
-    Verify that the candidate rotation axis is consistent across multiple
-    rendered articulation states by checking that the axis direction remains
-    stable (dot product with mean axis > threshold).
+    Verify persistent-axis consistency and motion-plane orthogonality.
 
-    Args:
-        axis_candidate:        (3,) candidate axis.
-        articulation_states:   List of (M_i, 3) vertex sets for the joint
-                               region at different articulation angles.
-        consistency_threshold: Minimum |cos θ| for consistency.
-
-    Returns:
-        True if the axis passes the kinematic feasibility check.
+    Axis signs from PCA are first aligned to the candidate axis before the
+    consistency average is computed, avoiding false failures caused by PCA's
+    arbitrary sign convention.
     """
-    axes = [axis_candidate]
-    for state_verts in articulation_states:
-        a, _ = pca_rotation_axis(state_verts)
-        axes.append(a)
 
-    axes = np.array(axes)            # (K, 3)
-    mean_axis = axes.mean(axis=0)
-    mean_axis /= np.linalg.norm(mean_axis)
+    if len(joint_axis_states) < 2:
+        return False
+    axis_candidate = _unit_vector(np.asarray(axis_candidate, dtype=float))
 
-    for a in axes:
-        if abs(np.dot(a, mean_axis)) < consistency_threshold:
+    aligned_axes = [axis_candidate]
+    for state_verts in joint_axis_states:
+        if len(state_verts) < 3:
             return False
-    return True
+        axis, _ = pca_rotation_axis(np.asarray(state_verts, dtype=float))
+        if np.dot(axis, axis_candidate) < 0:
+            axis = -axis
+        aligned_axes.append(axis)
+
+    mean_axis = _unit_vector(np.asarray(aligned_axes).mean(axis=0))
+    for axis in aligned_axes:
+        if np.dot(_unit_vector(axis), mean_axis) < consistency_threshold:
+            return False
+
+    plane_states = motion_states if motion_states is not None else joint_axis_states
+    motion_plane_normal = estimate_motion_plane_normal(plane_states)
+    if motion_plane_normal is None:
+        return False
+
+    return abs(float(np.dot(axis_candidate, motion_plane_normal))) >= orthogonality_threshold
 
 
 @dataclass
 class RJOResult:
-    rotation_axis:        np.ndarray          # (3,) unit vector
-    rotation_center:      np.ndarray          # (3,) mean of joint vertices
-    angular_limit_minus:  np.ndarray          # (3,) l⁻ limit point
-    angular_limit_plus:   np.ndarray          # (3,) l⁺ limit point
-    confidence:           float = 1.0
-    refined:              bool  = False       # True if adaptive refinement ran
+    rotation_axis: np.ndarray
+    rotation_center: np.ndarray
+    angular_limit_minus: np.ndarray
+    angular_limit_plus: np.ndarray
+    confidence: float = 1.0
+    refined: bool = False
 
     def to_dict(self) -> dict:
         return {
-            "rotation_axis":       self.rotation_axis.tolist(),
-            "rotation_center":     self.rotation_center.tolist(),
+            "rotation_axis": self.rotation_axis.tolist(),
+            "rotation_center": self.rotation_center.tolist(),
             "angular_limit_minus": self.angular_limit_minus.tolist(),
-            "angular_limit_plus":  self.angular_limit_plus.tolist(),
-            "confidence":          self.confidence,
-            "refined":             self.refined,
+            "angular_limit_plus": self.angular_limit_plus.tolist(),
+            "confidence": self.confidence,
+            "refined": self.refined,
         }
 
 
-# ---------------------------------------------------------------------------
-# Stage 3 – Angular Limit Point Detection
-# ---------------------------------------------------------------------------
-
 def detect_angular_limits(
-    v_joint_open:   np.ndarray,
+    v_joint_open: np.ndarray,
     v_joint_closed: np.ndarray,
-    rotation_axis:  np.ndarray,
+    rotation_axis: np.ndarray,
     rotation_center: np.ndarray,
 ) -> tuple[np.ndarray, np.ndarray]:
-    """
-    Identify angular limit points l⁻ and l⁺ by finding vertices that are
-    spatially invariant w.r.t. the rotation axis yet exhibit maximum
-    displacement between the two extreme articulation states.
+    """Detect angular limit points by comparing extreme articulation states."""
 
-    Strategy:
-      1. Compute radial distance to the rotation axis for all vertices in
-         both states to identify axis-stable vertices (small Δr).
-      2. Among those, find the pair (one from each state) with maximum
-         Euclidean displacement.
+    rotation_axis = _unit_vector(rotation_axis)
 
-    Args:
-        v_joint_open:    (M, 3) joint vertices at fully-open state.
-        v_joint_closed:  (M, 3) joint vertices at fully-closed state (same
-                         topology / correspondence assumed).
-        rotation_axis:   (3,) unit rotation axis.
-        rotation_center: (3,) point on the rotation axis.
+    def radial_distance(points: np.ndarray) -> np.ndarray:
+        delta = points - rotation_center
+        proj = (delta @ rotation_axis)[:, np.newaxis] * rotation_axis
+        return np.linalg.norm(delta - proj, axis=1)
 
-    Returns:
-        l_minus: (3,) angular limit point at fully-closed state.
-        l_plus:  (3,) angular limit point at fully-open state.
-    """
-    def radial_distance(pts: np.ndarray) -> np.ndarray:
-        """Distance of each point to the rotation axis line."""
-        d = pts - rotation_center
-        proj = (d @ rotation_axis)[:, np.newaxis] * rotation_axis
-        return np.linalg.norm(d - proj, axis=1)
-
-    r_open   = radial_distance(v_joint_open)
+    r_open = radial_distance(v_joint_open)
     r_closed = radial_distance(v_joint_closed)
-
-    # Axis-stable: small change in radial distance
     delta_r = np.abs(r_open - r_closed)
-    stable  = delta_r < np.percentile(delta_r, 25)
+    stable = delta_r < np.percentile(delta_r, 25)
 
-    # Among axis-stable vertices, find the pair with maximum displacement
     displacements = np.linalg.norm(v_joint_open - v_joint_closed, axis=1)
     displacements[~stable] = -np.inf
     best_idx = int(np.argmax(displacements))
-
     return v_joint_closed[best_idx], v_joint_open[best_idx]
 
 
-# ---------------------------------------------------------------------------
-# Full RJO Pipeline
-# ---------------------------------------------------------------------------
-
 def process_rjo(
-    vertices:             np.ndarray,
-    joint_regions:        list[dict],
-    articulation_states:  list[np.ndarray],
-    v_joint_open:         np.ndarray,
-    v_joint_closed:       np.ndarray,
+    vertices: np.ndarray,
+    joint_regions: list[dict],
+    articulation_states: list[np.ndarray],
+    v_joint_open: np.ndarray,
+    v_joint_closed: np.ndarray,
+    motion_states: list[np.ndarray] | None = None,
     consistency_threshold: float = 0.95,
-    confidence_threshold:  float = 0.7,
+    orthogonality_threshold: float = 0.90,
+    confidence_threshold: float = 0.7,
+    max_refine_iter: int = 2,
     gpt_refine_fn=None,
 ) -> RJOResult:
-    """
-    Full three-stage RJO processing pipeline.
+    """Run the full RJO processing pipeline."""
 
-    Args:
-        vertices:              (V, 3) full mesh vertices.
-        joint_regions:         Per-view dicts for Stage 1 (see select_joint_vertices).
-        articulation_states:   List of (M_i, 3) joint vertex arrays for feasibility check.
-        v_joint_open:          (M, 3) joint vertices at fully-open articulation.
-        v_joint_closed:        (M, 3) joint vertices at fully-closed articulation.
-        consistency_threshold: Kinematic feasibility threshold.
-        confidence_threshold:  If GPT-4o confidence < this, trigger adaptive refinement.
-        gpt_refine_fn:         Optional callable(vertices) → (axis, confidence) for
-                               adaptive re-querying when feasibility check fails.
-
-    Returns:
-        RJOResult with all extracted primitives.
-    """
-    # Stage 1 – Joint Region
     v_joint = select_joint_vertices(vertices, joint_regions)
     if len(v_joint) < 3:
         raise ValueError("Insufficient joint vertices; check region annotations.")
 
     rotation_center = v_joint.mean(axis=0)
-
-    # Stage 2 – Rotation Axis + Feasibility
     axis, _ = pca_rotation_axis(v_joint)
-    feasible = check_kinematic_feasibility(axis, articulation_states,
-                                           consistency_threshold)
+    joint_axis_states = list(articulation_states or [])
+    if len(joint_axis_states) < 2:
+        joint_axis_states = [v_joint_closed, v_joint_open]
+    plane_motion_states = motion_states if motion_states is not None else [v_joint_closed, v_joint_open]
+
+    feasible = check_kinematic_feasibility(
+        axis,
+        joint_axis_states,
+        motion_states=plane_motion_states,
+        consistency_threshold=consistency_threshold,
+        orthogonality_threshold=orthogonality_threshold,
+    )
     refined = False
     confidence = 1.0
 
-    if not feasible and gpt_refine_fn is not None:
+    refine_iter = 0
+    while (not feasible or confidence < confidence_threshold) and gpt_refine_fn is not None:
+        if refine_iter >= max_refine_iter:
+            break
         axis, confidence = gpt_refine_fn(v_joint)
+        axis = _unit_vector(np.asarray(axis, dtype=float))
+        feasible = check_kinematic_feasibility(
+            axis,
+            joint_axis_states,
+            motion_states=plane_motion_states,
+            consistency_threshold=consistency_threshold,
+            orthogonality_threshold=orthogonality_threshold,
+        )
         refined = True
+        refine_iter += 1
 
-    # Stage 3 – Angular Limits
     l_minus, l_plus = detect_angular_limits(
-        v_joint_open, v_joint_closed, axis, rotation_center
+        v_joint_open,
+        v_joint_closed,
+        axis,
+        rotation_center,
     )
 
     return RJOResult(
